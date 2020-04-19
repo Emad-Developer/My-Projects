@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item {
+    position: relative;
+    cursor: pointer;
+
+}
+.item-member {
+    background-color: #fff;
+    position: absolute;
+    bottom: 30PX;
+    left: 10%;
+    width: 80%;
+    margin: auto;
+    color: #888;
+    padding-left: 10PX;
+    padding-top: 10PX;
+}
+#light-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+}
+#overlay-child {
+    position: relative;
+    width: 50%;
+    height: 50vh;
+    background-image: url(../images/portfolio-1.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+}
+#close {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+i {
+    cursor: pointer;
+    font-size: 20px;
+}
