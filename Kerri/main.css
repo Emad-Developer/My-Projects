@@ -1,0 +1,359 @@
+.bg-dark {
+  background-color: rgba(0,0,0,0.3) !important;
+}
+.header .nav-item {
+  padding-left: 10px;
+}
+.header .nav-link {
+  color: #fff !important;
+  font-size: 17px;
+  transition: all .5s;
+}
+.navbar-nav .active>.nav-link {
+  color: rgb(230, 95, 120) !important;
+}
+.nav-link:hover {
+  color: rgb(230, 95, 120) !important;
+}
+.navbar-brand {
+  font-family: Poppins;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.home {
+  background-image: url(images/header-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+.bg-overlay {
+  background-color: rgba(0,0,0,0.6);
+  height: 100%;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+}
+.intro h1 {
+  font-size: 4rem;
+}
+.intro h1::after {
+  content: " | ";
+  animation: words-moving 10s infinite;
+}
+@keyframes words-moving {
+  0% {content: " K |";}
+  1% {content: " Ke |";}
+  2% {content: " Ker |";}
+  3% {content: " Kerr |";}
+  4% {content: " Kerri |";}
+  5% {content: " Kerri D |";}
+  6% {content: " Kerri De |";}
+  7% {content: " Kerri Deo |";}
+  17% {content: " Kerri Deo |";}
+  18% {content: " Kerri Deo |";}
+  19% {content: " Kerri De |";}
+  20% {content: " Kerri D |";}
+  21% {content: " Kerri D |";}
+  22% {content: " Kerri |";}
+  23% {content: " Kerr |";}
+  24% {content: " Ker |";}
+  25% {content: " Ke |";}
+  26% {content: " K |";}
+  27% {content: " A |";}
+  28% {content: " A G |";}
+  29% {content: " A Gr |";}
+  30% {content: " A Gra |";}
+  31% {content: " A Grap |";}
+  32% {content: " A Graph |";}
+  33% {content: " A Graphi |";}
+  34% {content: " A Graphic |";}
+  35% {content: " A Graphic D |";}
+  36% {content: " A Graphic De |";}
+  37% {content: " A Graphic Des |";}
+  38% {content: " A Graphic Desi |";}
+  39% {content: " A Graphic Desig |";}
+  40% {content: " A Graphic Design |";}
+  41% {content: " A Graphic Designe |";}
+  51% {content: " A Graphic Designer |";}
+  52% {content: " A Graphic Designe |";}
+  53% {content: " A Graphic Design |";}
+  54% {content: " A Graphic Desig |";}
+  55% {content: " A Graphic Des |";}
+  56% {content: " A Graphic De |";}
+  57% {content: " A Graphic D |";}
+  58% {content: " A Graphic |";}
+  59% {content: " A Graph |";}
+  60% {content: " A Grap |";}
+  61% {content: " A Gra |";}
+  62% {content: " A Gr |";}
+  63% {content: " A G |";}
+  64% {content: " A  |";}
+  65% {content: " A P |";}
+  66% {content: " A Ph |";}
+  67% {content: " A Pho |";}
+  68% {content: " A Phot |";}
+  69% {content: " A Photo |";}
+  70% {content: " A Photog |";}
+  71% {content: " A Photogr |";}
+  72% {content: " A Photogra |";}
+  73% {content: " A Photograp |";}
+  74% {content: " A Photograph |";}
+  75% {content: " A Photographe |";}
+  85% {content: " A Photographer |";}
+  86% {content: " A Photographe |";}
+  87% {content: " A Photograph |";}
+  88% {content: " A Photograp |";}
+  89% {content: " A Photogra |";}
+  90% {content: " A Photogr |";}
+  91% {content: " A Photog |";}
+  92% {content: " A Photo |";}
+  94% {content: " A Phot |";}
+  96% {content: " A Pho |";}
+  97% {content: " A Ph |";}
+  98% {content: " A P |";}
+  100% {content: " A |";}
+}
+.btn-outline-primary {
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 40px;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
+.btn-outline-primary:hover {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #fff;
+}
+.about-button {
+  width: 2px;
+  height: 50px;
+  background-color: transparent;
+  border: 3px solid #fff;
+  border-radius: 40px;
+  padding: 12px;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  animation: button-moving 3s infinite;
+  position: relative;
+}
+@keyframes button-moving {
+  0% {top: -30%;}
+  30% {top: 0%;}
+  50% {top: -20%;}
+  70% {top: 0%;}
+  90% {top: -10%;}
+  100% {top: 0;}
+}
+.about .fa-cog {
+  position: fixed;
+  top: 20%;
+  left: 0;
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  z-index: 999999999;
+}
+.about-image {
+  border: 1px double #888;
+  padding: 4px;
+  border-radius: 5px;
+}
+.about-info h2 {
+  font-size: 2rem;
+}
+.about-info h3 span{
+  color:  rgb(230, 95, 120);
+}
+.about-social i {
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 700;
+  transition: all .5s;
+}
+.about-social i:hover {
+  color: rgb(230, 95, 120);
+  border-color: rgb(230, 95, 120);
+}
+.services, .our-client, .our-blog {
+  background-color: #eee;
+}
+.services, .our-client, .our-works .caption p {
+  line-height: .8;
+}
+.services-details {
+  border: 1px solid #ddd;
+}
+.services-details i {
+  color: rgb(230, 95, 120);
+  font-size: 3rem;
+}
+.services-details p {
+  line-height: 1.7;
+}
+.services-details h3 {
+  position: relative;
+  font-size: 22px;
+}
+.services-details h3::after { 
+  content: "";
+  position: absolute;
+  top: 100%;
+  left:50%;
+  transform: translateX(-50%);
+  background-color: rgb(230, 95, 120);
+  width: 15%;
+  height:2px;
+  transition: all .5s;
+}
+.services-details:hover ::after {
+  width: 25%;
+}
+.freelance h3{
+  font-size: 2rem;
+}
+.freelance .btn-primary {
+  background-color: rgb(230, 95, 120);
+  border: none;
+  font-size: 14px;
+  padding: 15px 40px;
+}
+.member-data i {
+  color: rgb(230, 95, 120);
+  font-size: 3rem;
+}
+.carousel-indicators li {
+  background-color: rgb(230, 95, 120);
+  width: 22px;
+  height: 5px;
+}
+.navs .nav-link{
+  color: #000;
+  font-size: 15px;
+}
+.navs .nav-tabs {
+  border: none;
+}
+.nav-tabs .nav-link {
+  border: none;
+  transition: all .5s;
+  font-weight: 500;
+}
+.nav-tabs a:hover  {
+  color: #fff !important;
+  background-color: rgb(230, 95, 120);
+  border-radius: 25px;
+}
+.nav-tabs a.active:hover  {
+  color: #fff !important;
+  background-color: rgb(230, 95, 120);
+  border-radius: 25px;
+}
+.tab-box {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.tab-box img {
+  max-width: 100%;
+  transition: all .5s;
+}
+.tab-box:hover img {
+  transform: scale(1.2);
+}
+.tab-box:hover .tab-overlay {
+  opacity: 1;
+}
+.tab-overlay {
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  transition: all .5s;
+  opacity: 0;
+}
+.tap-caption {
+  position: absolute;
+  top:100%;
+  left:50%;
+  transform: translateX(-50%);
+  transition: all .5s;
+}
+.tab-box:hover .tap-caption {
+  top: 30%;
+}
+.card-body a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+h6 .red-link {
+  color: rgb(230, 95, 120);
+}
+.contact-us .fas {
+  font-size: 3rem;
+  color: rgb(230, 95, 120);
+}
+footer {
+  background-color: #111;
+}
+footer i {
+  font-size: 18px;
+  border-radius: 50%;
+  padding: 12px;
+  color: rgb(108, 117, 125);
+  background-color: #333;
+  margin-right: 10px;
+  cursor: pointer;
+}
+footer p {
+  color:rgb(108, 117, 125);
+}
+footer span {
+  color: rgb(230, 95, 120);
+}
+footer .row {
+  margin-right: 0;
+}
+.fixed-icon i {
+  position: fixed;
+  bottom:10px;
+  right: 10px;
+  border-radius: 6px;
+  background-color: rgb(230, 95, 120);
+  padding: 10px;
+  color: #fff;
+}
+
+@media(max-width:768px)
+{
+  .intro h1 {
+    font-size: 2rem;
+  }
+  .card {
+    width: 28rem !important;
+    margin: auto;
+  }
+}
+https://drive.google.com/open?id=1QZMVz7WPQHurx-QDJfAGFxeQI5-vRmPW
