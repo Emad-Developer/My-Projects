@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crud Products</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="container my-5">
+        <div class="form-group">
+            <label>Product Name :</label>
+            <input id="name" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Product Price :</label>
+            <input id="price" type="number" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Product Category :</label>
+            <input id="category" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Product Description :</label>
+            <textarea id="desc" type="text" class="form-control" rows="4"></textarea>
+        </div>
+        <button id="butn" class="btn btn-info btn-lg float-right">Add Product</button>
+        <div class="clearfix"></div>
+
+        <div class="search my-4">
+            <input onkeyup="searchAbout(this.value)" class="form-control w-50 m-auto"
+                placeholder="Search by Product Name">
+        </div>
+
+        <table class="table pt-3 text-center">
+            <thead>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Delete</th>
+                <th>Edit</th>
+            </thead>
+
+            <tbody id="productShow">
+
+            </tbody>
+
+        </table>
+    </div>
+
+    <script src=" js/jquery-3.4.1.min.js">
+    </script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
