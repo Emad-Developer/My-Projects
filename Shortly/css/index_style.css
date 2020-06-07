@@ -1,0 +1,512 @@
+body {
+    overflow-x: hidden;
+}
+.nav-link {
+    color: rgb(153,152,160) !important;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: black !important;
+}
+.bg-light {
+    background-color: transparent !important;
+}
+.botn1 {
+    border-radius: 30px;
+    padding: 8px 25px;
+}
+.main .caption h1,h3 {
+    font-size: 4.95rem;
+    font-weight: 800;
+}
+.main .caption p {
+    font-size: 1.7rem;
+}
+.bton {
+    border-radius: 30px;
+    padding: 8px 45px;
+    font-size: 1.5rem;
+}
+.bton:hover {
+    background-color: rgb(157,225,226);
+    border-color: rgb(157,225,226);
+}
+.desktop {
+    background-color: #eee;
+    position: relative;
+}
+.deskop-caption {
+    position: absolute;
+    top: -6%;
+    left: 10%;
+    width: 80%;
+    background-color: rgb(58, 48, 83);
+    background-image: url("../images/bg-shorten-desktop.svg");
+    background-position: bottom center;
+    background-size: 100% 100%;
+    height: 150px;
+    border-radius: 15px;    
+}
+::placeholder {
+    color: rgb(248,80,84) !important;
+}
+.form-text {
+    color: rgb(248,80,84) !important;
+    font-style: italic;
+    font-size: 18px;
+}
+.form-control-lg {
+    padding : 30px 10px
+}
+.btn-lg {
+    padding: 15px;
+    font-weight: 500;
+}
+.features-container {
+    margin: 100px 0;
+}
+.features-links {
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.butn {
+    padding: 8px 30px;
+    background-color: rgb(47,206,209);
+}
+.butn2 {
+    padding: 8px 30px;
+    background-color: rgb(58,48,83);
+}
+.butn:hover , .butn2:hover {
+    background-color: rgb(153,227,228);
+}
+.link {
+    color: #000;
+    font-size: 22px;
+}
+a:hover {
+    text-decoration: none;
+}
+.link-color {
+    color : rgb(47,206,209);
+    font-weight: bold;
+}
+.hed {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.desc {
+    font-size: 1.3rem;
+    line-height: 1.7;
+}
+.pricing-planing {
+    height : 400px
+}
+.card {
+    position: relative;
+    height: 250px;
+    border-radius: 10px;
+}
+.cirlce,.cirlce2,.cirlce3 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(58, 48, 83);
+    background-position: center center;
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -15%;
+    left: 10%;
+}
+.cirlce {
+    background-image: url(../images/icon-brand-recognition.svg);
+}
+.cirlce2::after {
+    content: "";
+    position: absolute;
+    bottom: -80%;
+    left: -80%;
+    background-color: rgb(40,210,210);
+    width: 30px;
+    height: 8px;
+}
+.cirlce2 {
+    background-image: url(../images/icon-detailed-records.svg);
+}
+.cirlce3::after {
+    content: "";
+    position: absolute;
+    bottom: -20%;
+    left: -80%;
+    background-color: rgb(40,210,210);
+    width: 30px;
+    height: 8px;
+}
+.cirlce3 {
+    background-image: url(../images/icon-fully-customizable.svg);
+}
+.Boost {
+    background-color: rgb(58, 48, 83);
+    background-image: url(../images/bg-boost-desktop.svg);
+}
+.Boost h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+.footer {
+    background-color: rgb(35,32,39); 
+    padding-bottom: 40px;
+}
+.footer h2 {
+    font-size: 2.5rem;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: rgb(47,206,209);
+}
+i {
+    font-size: 26px;
+    padding-right: 20px;
+}
+
+@media(max-widt : 1200px) and (min-width : 991px)
+{
+    .features-container {
+        margin: 130px 0;
+    }
+    .left-side {
+        padding-bottom: 10px;
+    }
+    .left-side::after {
+        content: "";
+        position: absolute;
+        bottom : 0px;
+        left : 10px;
+        background-color: #ddd;
+        height: 0.3px;
+        width: 100%;
+    }
+    .link {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 10px
+    }
+    .link-color {
+        margin: 20px 0;
+        display: block;
+        text-align: left;
+    }
+    .butn,.butn2  {
+        padding: 8px 30px;
+        width: 100%;
+    }
+}
+
+@media(max-width : 992px) and (min-width : 768px) 
+{
+    .navbar-collapse {
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: rgb(58, 48, 83) !important;
+        border-radius: 10px;
+        text-align: center;
+}
+    .nav-link {
+        color: #fff!important;
+}
+    .nav-link:hover {
+        color: rgb(47,206,209) !important;
+}
+    .form-inline {
+        padding-top: 30px;
+        text-align: center;
+        display: block !important;
+        position: relative;
+    }
+    .form-inline::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 5%;
+        background-color: #888;
+        height: 0.3px;
+        width: 90%;
+        margin:auto;
+    }
+    .form-inline .botn1 {
+        padding: 10px 100px;
+    }
+    .main {
+        text-align: center;
+    }
+    .main .caption h1,h3 {
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+    .main .caption p {
+        font-size: 1.7rem;
+        padding: 0 10px
+    }
+    .features-container {
+        margin: 130px 0;
+    }
+    .left-side {
+        padding-bottom: 10px;
+    }
+    .left-side::after {
+        content: "";
+        position: absolute;
+        bottom : 0px;
+        left : 10px;
+        background-color: #ddd;
+        height: 0.3px;
+        width: 100%;
+    }
+    .link {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 10px
+    }
+    .link-color {
+        margin: 20px 0;
+        display: block;
+        text-align: left;
+    }
+    .butn,.butn2  {
+        padding: 8px 30px;
+        width: 100%;
+    }
+
+}
+
+@media(max-width : 767px) and (min-width : 526px) 
+{
+    .navbar-collapse {
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: rgb(58, 48, 83) !important;
+        border-radius: 10px;
+        text-align: center;
+}
+    .nav-link {
+        color: #fff!important;
+}
+    .nav-link:hover {
+        color: rgb(47,206,209)!important;
+}
+    .form-inline {  
+        padding-top: 30px;
+        text-align: center;
+        display: block !important;
+        position: relative;
+    }
+    .form-inline::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 5%;
+        background-color: #888;
+        height: 0.3px;
+        width: 90%;
+        margin:auto;
+    }
+    .form-inline .botn1 {
+        padding: 10px 100px;
+    }
+    .main {
+        text-align: center;
+    }
+    .main .caption h1,h3 {
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+    .main .caption p {
+        font-size: 1.6rem;
+        padding : 0 30px;
+    }
+    .deskop-caption {
+        height: 200px;
+    }
+    .form-control-lg {
+        padding : 30px 10px;
+        margin-top:10px;
+        display: block !important;
+        margin: auto;
+        margin-left:0 !important
+    }
+    .features-container {
+        margin: 130px 0;
+    }
+    .left-side {
+        padding-bottom: 10px;
+    }
+    .left-side::after {
+        content: "";
+        position: absolute;
+        bottom : 0px;
+        left : 10px;
+        background-color: #ddd;
+        height: 0.3px;
+        width: 100%;
+    }
+    .link {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 10px
+    }
+    .link-color {
+        margin: 20px 0;
+        display: block;
+        text-align: left;
+    }
+    .butn,.butn2  {
+        padding: 8px 30px;
+        width: 100%;
+    }
+}
+
+@media(max-width : 525px) 
+{
+    .navbar-collapse {
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 18px;
+        background-color: rgb(58, 48, 83) !important;
+        border-radius: 10px;
+        text-align: center;
+}
+    .nav-link {
+        color: #fff!important;
+}
+    .nav-link:hover {
+        color: rgb(47,206,209)!important;
+}
+    .form-inline {
+        padding-top: 30px;
+        text-align: center;
+        display: block !important;
+        position: relative;
+    }
+    .form-inline::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 5%;
+        background-color: #888;
+        height: 0.3px;
+        width: 90%;
+        margin:auto;
+    }
+    .form-inline .botn1 {
+        padding: 10px 100px;
+    }
+    .main {
+        text-align: center;
+    }
+    .main .caption h1,h3 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .main .caption p {
+        font-size: 1.3rem;
+    }
+    .deskop-caption {
+        height: 200px;
+    }
+    .form-control-lg {
+        padding : 30px 10px;
+        margin-top:10px;
+        display: block !important;
+        margin: auto;
+        margin-left:0 !important
+    }
+    .features-container {
+        margin: 130px 0;
+    }
+    .left-side {
+        padding-bottom: 10px;
+    }
+    .left-side::after {
+        content: "";
+        position: absolute;
+        bottom : 0px;
+        left : 10px;
+        background-color: #ddd;
+        height: 0.3px;
+        width: 100%;
+    }
+    .link {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 10px
+    }
+    .link-color {
+        margin: 20px 0;
+        display: block;
+        text-align: left;
+    }
+    .butn,.butn2  {
+        padding: 8px 30px;
+        width: 100%;
+    }
+    .pricing-caption {
+        width : 100% !important;
+    }
+    .hed {
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    .desc {
+        font-size: 1.1rem;
+        line-height: 1.7;
+    }
+    .card {
+        text-align: center;
+    }
+    .cirlce,.cirlce2,.cirlce3 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .cirlce2::after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 45%;
+        background-color: rgb(40,210,210);
+        width: 8px;
+        height: 38px;
+    }
+    .cirlce3::after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 45%;
+        background-color: rgb(40,210,210);
+        width: 8px;
+        height: 38px;
+    }
+    .boost {
+        margin-top: 500px;
+    }                   
+    .Boost h2 {
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+    .footer {
+        text-align: center;
+    }    
+}
